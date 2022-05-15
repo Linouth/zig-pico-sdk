@@ -3,7 +3,7 @@
 After first attempting to rewrite the SDK from scratch in Zig
 ([zig-pico](https://github.com/Linouth/zig-pico)), I realized that
 this would be way too much work for me right now. Instead, this repo is a
-wrapper around the official [https://github.com/raspberrypi/pico-sdk](pico-sdk).
+wrapper around the official [pico-sdk](https://github.com/raspberrypi/pico-sdk).
 It allows you to compile Zig programs for the Pico microcontroller (RP2040),
 while being able to use the official SDK.
 
