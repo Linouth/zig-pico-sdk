@@ -12,6 +12,6 @@ pub export fn main() void {
         c.gpio_put(LED_PIN, true);
         c.sleep_ms(250);
         c.gpio_put(LED_PIN, false);
-        c.sleep_ms(1000);
+        c.sleep_ms(2500);
     }
 }
